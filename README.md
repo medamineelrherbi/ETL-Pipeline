@@ -25,7 +25,6 @@ readme: |
 ├── airflow_settings.yaml  
 ├── Dockerfile  
 ├── requirements.txt  
-├── .env # (Optional) Store API keys here  
 ├── sqlite_database/  
 │ └── market_database.db # Local SQLite DB (mounted into container in the file docker-compose.yml)  
 └── docker-compose.override.yml    
