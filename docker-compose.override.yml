@@ -1,0 +1,8 @@
+version: "3.1"
+services:
+  scheduler:
+    volumes:
+      - C:\Users\medam\OneDrive\Bureau\sqlite_database\market_database.db:/usr/local/airflow/market_database.db
+  webserver:
+    volumes:
+      - C:\Users\medam\OneDrive\Bureau\sqlite_database\market_database.db:/usr/local/airflow/market_database.db
