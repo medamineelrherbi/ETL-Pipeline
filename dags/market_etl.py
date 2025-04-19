@@ -23,7 +23,7 @@ with DAG(
     def hit_polygon_api(**context):
         # ticker is a variable that holds the stock symbole, in our case is AMAZON
         stock_ticker = "AMZN"
-        polygon_api_key = "3c0SPc4aCe8KbmCYORMN7fFzQ_GSkxae"
+        polygon_api_key = "here you put the polygone api key"
         #ds stands for execution date, the specific date when the DAG run is triggered
         ds = context.get("ds")
 
